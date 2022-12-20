@@ -1,25 +1,88 @@
-.header {}
+body{
+    color:#2E2F42 ;
+    font-family: 'Roboto', sans-serif;
+}
 
-.navigation {}
+.header {
+   
+}
 
-.logo-first {}
+.navigation {
+ 
+    }
 
-.logo-second {}
+.logo-first {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #4D5AE5;
+}
 
-.navigation-list {}
+.logo-second {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+        
+}
 
-.navigatin-link {}
+.navigation-list, {
+     font-weight: 600;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.navigatin-link {
+      
+}
+.contacts{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.33;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.navigatin-contacts{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.33;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 /* Main */
 
-/* Section body*/
+/* Section hero*/
 .hero {}
 
-.body {}
+.hero-main{}
 
-.body-text {}
+.hero-text {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
-.body-buttom {}
+.hero-buttom {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
 
 /* Section tefnology*/
 
@@ -29,18 +92,40 @@
 
 .tehnology-list {}
 
-.tehnology-item {}
+.tehnology-item {
 
-.tehnology-text {}
+}
 
-.tehnology-paragraph {}
+.tehnology-text {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.tehnology-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 
 /* section work*/
 
 .work {}
 
-.work-maintext {}
+.work-maintext {
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 1.33;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
 
 .work-list {}
 
@@ -52,15 +137,40 @@
 
 .about {}
 
-.about-maintext {}
+.about-maintext {
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+    
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        color: #2E2F42;
+}
 
 .about-list {}
 
 .about-item {}
 
-.about-text {}
+.about-text {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
-.about-paragraph {}
+.about-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 
 /* Footer */
