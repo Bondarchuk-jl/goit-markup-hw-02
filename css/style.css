@@ -1,10 +1,11 @@
 body{
     color:#2E2F42 ;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header {
-background: #FFFFFF;
+
 }
 
 .navigation {
@@ -12,7 +13,7 @@ background: #FFFFFF;
     }
 
 .logo-first {
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -31,79 +32,95 @@ background: #FFFFFF;
 }
 
 .navigation-list, {
-     font-weight: 600;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    
 }
 
 .navigatin-link {
-      
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 .contacts{
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.33;
-        letter-spacing: 0.02em;
-        color: #434455;
+       
 }
-.navigatin-contacts{
+.navigation-contacts{
     font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.33;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;   
 }
 
-.navigatin-contacts:hover,
-.navigatin-contacts:focus {
-  color: #4D5AE5;  
-}
+
 /* фокус для таба на интерактинвные элементы)*/
 
 
-.navigatin-contacts
 
+
+.navigation-contacts:hover {
+    color: #9ee54d;
+}
+.navigation-contacts:focus {
+  color: #9ee54d;  
+}
+
+.navigation-contacts:active {
+   
+}
 /* Main */
 
 /* Section hero*/
 .hero {}
 
 .hero-main{
-    background: #2E2F42;
+    
 }
 
 .hero-text {
-    font-weight: 600;
+font-weight: 700;
     font-size: 56px;
-    line-height: 1.33;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-buttom {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
 }
 
 /* Section tefnology*/
 
-.navigatin-contacts:active {
-    color: #4D5AE5;
-}
 
+{}
 .tehnology {}
 
 .tehhology-maintext {}
+
+.tehnology-text {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+         letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.tehnology-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 .tehnology-list {}
 
@@ -114,7 +131,7 @@ background: #FFFFFF;
 .tehnology-text {
     font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
@@ -122,7 +139,7 @@ background: #FFFFFF;
 .tehnology-paragraph {
     font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -133,13 +150,13 @@ background: #FFFFFF;
 .work {}
 
 .work-maintext {
-    font-weight: 600;
-        font-size: 36px;
-        line-height: 1.33;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .work-list {}
@@ -148,23 +165,20 @@ background: #FFFFFF;
 
 .work-link {}
 
-/*section about*/
+/*section our team - about*/
 
 .about {
-    background: #F4F4FD;
+    
 }
 
 .about-maintext {
-    font-weight: 600;
-        font-size: 36px;
-        line-height: 40px;
-    
-        /* identical to box height, or 111% */
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    
-        color: #2E2F42;
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .about-list {}
@@ -172,18 +186,18 @@ background: #FFFFFF;
 .about-item {}
 
 .about-text {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .about-paragraph {
     font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         color: #434455;
@@ -193,12 +207,41 @@ background: #FFFFFF;
 /* Footer */
 
 .footer {
-    background: #2E2F42; 
+
 }
 
-.logo-footer {}
+.logo-footer-first {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
 
-.footer-paragraph {}
+.logo-footer-second {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+
+}
+
+.footer-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;    
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+}
 
 
 /*--Page portoflio--*/
@@ -212,9 +255,21 @@ background: #FFFFFF;
 
 .portfolio-navigation-item {}
 
-.portfolio-buttom {}
+.portfolio-buttom {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        cursor: pointer;
+}
 
-.portfolio-buttom:hover,
+.portfolio-buttom:hover {
+    color: #9ee54d;
+}
 .portfolio-buttom:focus {
     color: #4D5AE5;
 }
@@ -229,6 +284,18 @@ background: #FFFFFF;
 
 .app-link {}
 
-.app-maintext {}
+.app-maintext {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
-.app-paragraph {}
+.app-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
