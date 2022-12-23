@@ -7,7 +7,16 @@ body{
 .header {
 
 }
+/*скинути крапки у списках ліст*/
+.list {
+    list-style: none;
+}
+/*скинути підкреслення на ссілках*.*/
+.link {
+    text-decoration: none;
+}
 
+.
 .navigation {
  
     }
@@ -31,21 +40,31 @@ body{
         
 }
 
-.navigation-list, {
+.navigation-list {
     
 }
 
-.navigatin-link {
+.navigation-item {
+
+}
+.navigation-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
+.navigation-link:hover {
+    color: #404BBF;
+}
 .contacts{
        
 }
+
 .navigation-contacts{
+    
+}
+ .contact-adress {
     font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -54,22 +73,11 @@ body{
         color: #434455;   
 }
 
-
+.contact-adress:hover {
+    color: #404BBF;
+}
 /* фокус для таба на интерактинвные элементы)*/
 
-
-
-
-.navigation-contacts:hover {
-    color: #9ee54d;
-}
-.navigation-contacts:focus {
-  color: #9ee54d;  
-}
-
-.navigation-contacts:active {
-   
-}
 /* Main */
 
 /* Section hero*/
@@ -89,6 +97,7 @@ font-weight: 700;
 }
 
 .hero-buttom {
+    font-family: inherit;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -96,6 +105,12 @@ font-weight: 700;
         align-items: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+        cursor: pointer;
+}
+
+.hero-buttom:hover,
+.hero-buttom:focus {
+    color: #FFFFFF;
 }
 
 /* Section tefnology*/
@@ -267,12 +282,15 @@ font-weight: 500;
         cursor: pointer;
 }
 
-.portfolio-buttom:hover {
-    color: #9ee54d;
+.portfolio-buttom:hover,
+.portfolio-buttom:focus
+ {
+   color: #4D5AE5; 
 }
-.portfolio-buttom:focus {
-    color: #4D5AE5;
+.portfolio-buttom:active {
+    color: #434455;
 }
+
 
 /* Section portfolio aalication*/
 
