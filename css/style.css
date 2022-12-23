@@ -1,11 +1,22 @@
 body{
-    color:#2E2F42 ;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF ;
+    font-family: 'Roboto', sans-serif;     
 }
 
-.header {
+:root {
+    --violet-color: #4D5AE5;
+}
+:root {
+    --maintext-color: #2E2F42;
+}
 
+:root {
+    --gray-color: #434455;
+}
+
+
+
+.header {
 }
 /*скинути крапки у списках ліст*/
 .list {
@@ -16,53 +27,42 @@ body{
     text-decoration: none;
 }
 
-.
 .navigation {
- 
-    }
+ }
 
-.logo-first {
+.logo-first, .logo-second {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
-        color: #4D5AE5;
+        color:var(--violet-color);
 }
 
 .logo-second {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    color: #2E2F42;
-        
+    color:var(--maintext-color);      
 }
 
-.navigation-list {
-    
+.navigation-list {  
 }
 
 .navigation-item {
-
 }
 .navigation-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color:var(--maintext-color);
 }
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:focus {
     color: #404BBF;
 }
-.contacts{
-       
+.contacts{    
 }
 
 .navigation-contacts{
-    
 }
  .contact-adress {
     font-style: normal;
@@ -70,7 +70,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;   
+        color: var(--gray-color);   
 }
 
 .contact-adress:hover {
@@ -83,8 +83,7 @@ body{
 /* Section hero*/
 .hero {}
 
-.hero-main{
-    
+.hero-main{  
 }
 
 .hero-text {
@@ -115,63 +114,43 @@ font-weight: 700;
 
 /* Section tefnology*/
 
-
-{}
 .tehnology {}
 
 .tehhology-maintext {}
 
-.tehnology-text {
+.tehnology-text, .about-text {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-         letter-spacing: 0.02em;
-    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--maintext-color);
 }
 
 .tehnology-paragraph {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
 }
 
 .tehnology-list {}
 
 .tehnology-item {
-
 }
-
-.tehnology-text {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-
-.tehnology-paragraph {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
 
 /* section work*/
 
 .work {}
 
-.work-maintext {
+.work-maintext, .about-maintext {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--maintext-color);
 }
 
 .work-list {}
@@ -187,13 +166,6 @@ font-weight: 700;
 }
 
 .about-maintext {
-font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
 }
 
 .about-list {}
@@ -201,21 +173,15 @@ font-weight: 700;
 .about-item {}
 
 .about-text {
-font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
-.about-paragraph {
+.about-paragraph, .footer-paragraph {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--gray-color);
 }
 
 
@@ -225,7 +191,7 @@ font-weight: 500;
 
 }
 
-.logo-footer-first {
+.logo-footer-first, .logo-footer-second {
     font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
@@ -234,27 +200,16 @@ font-weight: 500;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color:--violet-color;
 }
 
 .logo-footer-second {
-    font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #F4F4FD;
-
 }
 
 .footer-paragraph {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;    
-        letter-spacing: 0.02em;
         color: #E7E9FC;
 }
 
@@ -278,17 +233,17 @@ font-weight: 500;
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
-        color: #4D5AE5;
+        color: --violet-color;
         cursor: pointer;
 }
 
 .portfolio-buttom:hover,
 .portfolio-buttom:focus
  {
-   color: #4D5AE5; 
+   color: --violet-color; 
 }
 .portfolio-buttom:active {
-    color: #434455;
+    color: var(--gray-color);
 }
 
 
@@ -307,7 +262,7 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--maintext-color);
 }
 
 .app-paragraph {
@@ -315,5 +270,5 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--gray-color);
 }
