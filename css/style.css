@@ -1,20 +1,21 @@
+:root {
+    --violet-color: #4D5AE5;
+    --maintext-color: #2E2F42;
+    --gray-color: #434455;
+   --btn-navigation:#404BBF;
+}
 body{
     color:#FFFFFF ;
     font-family: 'Roboto', sans-serif;     
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+
 }
+
 
 :root {
-    --violet-color: #4D5AE5;
 }
-:root {
-    --maintext-color: #2E2F42;
-}
-
-:root {
-    --gray-color: #434455;
-}
-
-
 
 .header {
 }
@@ -50,14 +51,11 @@ body{
 }
 .navigation-link {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         color:var(--maintext-color);
 }
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #404BBF;
+    color: var(--btn-navigation);
 }
 .contacts{    
 }
@@ -67,14 +65,12 @@ body{
  .contact-adress {
     font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--gray-color);   
 }
 
-.contact-adress:hover {
-    color: #404BBF;
+.contact-adress:hover,
+.contact-adress:focus {
+    color: var(--btn-navigation);
 }
 /* фокус для таба на интерактинвные элементы)*/
 
@@ -83,7 +79,8 @@ body{
 /* Section hero*/
 .hero {}
 
-.hero-main{  
+.hero-main{ 
+    background: #2E2F42;
 }
 
 .hero-text {
@@ -91,7 +88,6 @@ font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -99,7 +95,6 @@ font-weight: 700;
     font-family: inherit;
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;
         display: flex;
         align-items: center;
         letter-spacing: 0.04em;
@@ -122,15 +117,11 @@ font-weight: 700;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--maintext-color);
 }
 
 .tehnology-paragraph {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--gray-color);
 }
 
@@ -177,10 +168,7 @@ font-weight: 700;
 
 .about-paragraph, .footer-paragraph {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
         text-align: center;
-        letter-spacing: 0.02em;
         color: var(--gray-color);
 }
 
@@ -188,7 +176,7 @@ font-weight: 700;
 /* Footer */
 
 .footer {
-
+    background: #2E2F42;
 }
 
 .logo-footer-first, .logo-footer-second {
@@ -228,7 +216,6 @@ font-weight: 700;
 .portfolio-buttom {
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;
         display: flex;
         align-items: center;
         text-align: center;
@@ -261,14 +248,10 @@ font-weight: 700;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.02em;
         color: var(--maintext-color);
 }
 
 .app-paragraph {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--gray-color);
 }
